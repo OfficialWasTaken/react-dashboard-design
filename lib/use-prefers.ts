@@ -14,3 +14,4 @@ export const PrefersContext = createContext<Prefers>({
 });
 
 export const usePrefers = (): Prefers => useContext(PrefersContext);
+ 
