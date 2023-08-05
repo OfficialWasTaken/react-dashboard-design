@@ -26,11 +26,11 @@ const Page = () => {
           <Grid.Container gap={2} marginTop={1} justify="flex-start">
             <Grid xs={24} sm={12} md={8}>
               <ProjectCard
-                projectId="react-dashboard-design"
+                projectId="discord-bot-test"
                 framework="next"
                 git={{
-                  repo: 'ofekashery/react-dashboard-design',
-                  commitMessage: 'Bump version'
+                  repo: 'justofficial/discord-bot-test',
+                  commitMessage: 'Bumped version'
                 }}
                 updatedAt="4m"
               />
@@ -39,10 +39,10 @@ const Page = () => {
               <ProjectCard
                 projectId="personal-website"
                 framework="react"
-                productionHostname="ofek.ashery.me"
+                productionHostname="xentotogether.co/justofficial/about"
                 git={{
-                  repo: 'ofekashery/personal-website',
-                  commitMessage: 'Improve homepage layout on smaller screens'
+                  repo: 'justofficial/personal-website',
+                  commitMessage: 'Improved homepage layout on smaller screens'
                 }}
                 updatedAt="2d"
               />
@@ -54,7 +54,7 @@ const Page = () => {
               <ProjectCard
                 projectId="geist"
                 framework="react"
-                productionHostname="react.geist-ui.dev"
+                productionHostname="xentotogether.co/justofficial/react"
                 git={{
                   repo: 'geist-org/react',
                   commitMessage: 'chore: release v2.2.0'
@@ -66,10 +66,10 @@ const Page = () => {
               <ProjectCard
                 projectId="github-blog"
                 framework="next"
-                productionHostname="github.blog"
+                productionHostname="xentotogether.co/justofficial/github"
                 git={{
                   repo: 'github/blog',
-                  commitMessage: 'Fix font-size in footer'
+                  commitMessage: 'Fixed font-size in footer'
                 }}
                 updatedAt="8d"
               />
