@@ -10,7 +10,7 @@ const Page = () => {
 
   return (
     <>
-      <Heading user={{ name: 'Ofek Ashery', role: 'Admin', github: 'ofekashery' }} />
+      <Heading user={{ name: 'JustOfficial', role: 'Owner', github: 'justofficial' }} />
       <div className="page__wrapper">
         <div className="page__content">
           <div className="projects">
@@ -32,13 +32,13 @@ const Page = () => {
               Recent Activity
             </Text>
             <EventListItem username="ofekashery" avatar="/assets/avatar.png" createdAt="4m">
-              You deployed react-dashboard-design to <b>production</b>
+              You deployed discord-bot-test to <b>production.</b>
             </EventListItem>
-            <EventListItem username="dependabot" avatar="/assets/dependabot.png" createdAt="2d">
-              Dependabot deployed docs to <b>docs-git-dependabot-npmelliptic-653.vercel.app</b>
+            <EventListItem username="dependabot" avatar="/assets/dependabot.png" createdAt="15m">
+              You linked a Discord application to<b>discord-bot-test</b>/b>
             </EventListItem>
             <EventListItem username="ofekashery" avatar="/assets/avatar.png" createdAt="3d">
-              You deployed personal-website to <b>production</b>
+              You created project <b>discord-bot-test</b>
             </EventListItem>
             <EventListItem username="ofekashery" avatar="/assets/avatar.png" createdAt="9d">
               You deployed personal-website to <b>production</b>
